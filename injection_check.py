@@ -6,6 +6,8 @@ from transformers import (
     GPT2LMHeadModel,
 )
 import torch
+import openai
+import os
 
 tokenizer_roberta = RobertaTokenizer.from_pretrained(
     "cardiffnlp/twitter-roberta-base-hate"
