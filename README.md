@@ -18,6 +18,7 @@ Injection_check.py file detects and prevents prompt injection, hateful content, 
 2. Install the required packages for this environment:
     - notebook
     - transformers
+    - openai (through terminal by running "pip install openai")
 
 3. Back to the home page and launch jupyter Notebook on this environment
 
